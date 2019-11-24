@@ -1,0 +1,508 @@
+<!-- _includes/base.html -->
+
+
+
+
+<style type="text/css">
+
+        /* LINK HOVER STYLES 
+
+        SOURCE : https://codepen.io/jwv/pen/adONxo?q=hover+link&limit=all&type=type-pens
+
+        */
+
+
+       a{
+          /*color: #6E5C34;*/
+          /*text-decoration: none;*/
+          /*display:block;*/
+          /*margin: 20px auto;*/
+          position: relative;
+          overflow: hidden;
+          /*padding:0 6px;*/
+          /*text-transform: uppercase;*/
+          transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
+          
+          /*font-size: 0.875rem;
+          letter-spacing: .15rem;
+          line-height: 1.8;*/
+        } 
+
+        a:hover{
+          /*color:#CF2034;*/
+        }
+
+                
+        .link1:after {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: translate3d(-101%,0,0);
+          transition: transform .2s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link1:hover:after {
+          transform: translate3d(0,0,0);
+          
+        }
+
+        .link2:after {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: scale(0);
+
+        }
+
+        .link2:hover:after {
+            transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+          transform: scale(1);
+        }
+
+        .link3:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: translate3d(-101%,0,0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link3:hover:after {
+          transform: translate3d(0,0,0);
+        }
+
+        .link4:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          transform: scale(0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link4:hover:after {
+          transform: scale(1);
+        }
+
+        .link5{
+          position: relative;
+          z-index:1;
+          padding:2px 6px;
+        }
+
+        .link5:after {
+          position: absolute;
+          top:0; bottom: 0;
+          right: 0;left: 0;
+          display: block;
+          background-color: #CF2034;
+          content: "";
+          transform: translate3d(0,100%,0);
+          z-index:-1;
+        }
+
+        .link5:hover:after {
+          transform: translate3d(0,0,0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link5:hover{
+          color: #fff;
+        }
+
+
+        .link6{
+          position: relative;
+          z-index:1;
+          padding:2px 6px;
+        }
+
+        .link6:after {
+          position: absolute;
+          top:0; bottom: 0;
+          right: 0;left: 0;
+          display: block;
+          background-color: #170202;
+          content: "";
+          transform: translate3d(-101%,0,0);
+          z-index:-1;
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link6:hover {
+          color: #fff;
+        }
+
+        .link6:hover:after {
+          transform: translate3d(0,0,0);
+        }
+
+  </style>
+
+
+
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>SampySays</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://localhost:4000/sampyassets/posting/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<style>
+			hr {
+			
+    border: 0;
+    height: 2px;
+    background: #333;
+    background: -webkit-gradient(linear,left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li v-for="toc in tocs">
+								<a v-bind:href="'#'+toc.idlink">
+									
+									{{ toc.contentTitle }}
+									
+								</a>
+							</li>
+							<!--<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>-->
+						</ul>
+					</nav>
+
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style2-alt fullscreen fade-up">
+						<div class="inner">
+							<h1><i>Work</i></h1>
+							<h3>
+								<time datetime="2018-12-28T00:00:00-08:00" itemprop="datePublished">
+						        
+						        <i><u>Dec 28, 2018</u></i>
+						      </time></br>
+						      
+						         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i><u>sampad</u></i></span></span>
+						      
+        					</h3>
+        					
+							<i><p>RESEARCH WORK</p></i>
+							<!--<ul class="actions">
+								<li><a href="#one" class="button scrolly">Jump in</a></li>
+							</ul>-->
+						</div>
+					</section>
+
+				
+				<!-- Three -->
+					<section id="three" class="blogcontent wrapper style2-alt fade-up">
+						<div class="inner">
+
+							<h3 id="project-associate-robert-bosch-centre-for-cyber-physical-systems-iisc-bangalore">Project Associate, Robert Bosch Centre for Cyber Physical Systems, IISc Bangalore</h3>
+<h5 id="oct-2017---present">Oct 2017 - Present</h5>
+<h5 id="industrial-internet-of-things">Industrial Internet of Things</h5>
+<h5 id="supervisor-prof-rajesh-sundaresan">Supervisor: <a href="http://www.ece.iisc.ernet.in/~rajeshs/" target="_blank">Prof. Rajesh Sundaresan</a></h5>
+
+<h4 id="links--">Links -&gt;</h4>
+<ol>
+  <li>
+    <p><a href="https://github.com/NeveIsa/RBCCPS/tree/master/docs/iiot-gateway" target="_blank">Industrial IoT Stack Implementation Details (Github)</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/NeveIsa/RBCCPS/blob/master/docs/network/Network%20Architecture.pdf" target="_blank">Network Layout (Github)</a></p>
+  </li>
+</ol>
+
+<hr />
+<h3 id="project-associate-electrical-and-communication-engineering-iisc-bangalore">Project Associate, Electrical and Communication Engineering, IISc Bangalore</h3>
+<h5 id="august-2016--september-2017">August 2016 – September 2017</h5>
+<h5 id="wsn-in-detection-and-early-warning-system-for-wildlife-monitoring-and-protection">WSN in detection and early warning system for wildlife monitoring and protection</h5>
+<h5 id="supervisor-prof-p-vijay-kumar">Supervisor: <a href="http://www.ece.iisc.ernet.in/~vijay/" target="_blank">Prof. P Vijay Kumar</a></h5>
+<p>Worked on a low power sensor platform which uses Passive Infrared sensor array for intrusion detection and
+classification between human and animals like big cats. The sensor platform had to be low power and would be
+running from a solar energy harvesting system. Correlation between a pair of PIR sensors and the signal strength from
+4 other PIR sensors were used as a feature vector and fed to an SVM running on a low power mote (Wismote and
+Zolertia Re-mote) to classify the intrusion as human or animal. Also developed light weight image processing
+techniques for Raspberry Pi Zero to complement the above platform at times of day when temperature gets close to
+body temperature of humans or animals, because PIR performs poorly in such environments. The work involved
+extracting features from video feed which are then fed to an SVM classifier to classify between the Human, Animal
+and vegetation. We achieved a frame rate of 8 fps on Raspberry Pi-Zero, 25 fps on an Orange Pi-Zero using an
+optimized version of the algorithm which provided accuracies of about 93%. An Odroid C2 was also deployed whose
+frame rate was 25fps with a little heavier version of the algorithm for better accuracies reaching 97%. The work also
+involved comparison of various permutations of different image processing/feature extraction techniques like optical
+flow and machine learning models like decision trees, SVM and K- Nearest Neighbour based on their computational
+and energy efficiency while running on different Single Board Computers (SBCs) available like RPi2, RPi3, Odroid C2
+and Orange Pi.</p>
+
+<p>My role in the project spanned many areas including hardware, embedded systems, WSN, computer networking,
+image processing, signal processing and machine learning. On hardware end, I designing the signal conditioning
+multistage filter and amplifier for the PIR sensors and selecting the right ADCs. On the embedded aspect, my
+contribution was towards ADC interfacing of these sensors via I2C to a mote running Contiki-OS (Re-Mote). I also
+contributed in part to develop routines for extracting the energy and correlation features from the PIR signal sampled
+via the ADC in the ContikiOS. On the WSN side, I helped implement UDP client codes on ContikiOS for sending
+decisions from the Re-Mote to application server. I was completely responsible for developing the complementary
+camera platform. A few of my tasks were to implement optical flow using OpenCV, build various features from the
+optical flow vectors and implementing an SVM classifier which uses these features. Also included were tasks for
+optimizing the above systems for running on SBCs to obtain higher frame rates which lead to understanding of
+systems programming, IO bound vs CPU bound tasks and later coming up with a pipelined architecture for the optical
+camera using multithreading to address camera IO bottlenecks and comparison of effects of using various image
+filters on computation and accuracy of classification on these SBCs.</p>
+
+<h5 id="papers">Papers:</h5>
+<ul>
+  <li>
+    <p>Tarun Choubisa, Sampad B. Mohanty, Kodur Krishna Chaitanya, Mohan Kashyap, Sridhar A, Akshay Singh P. Vijay Kumar,
+Fellow, IEEE, “A reduced-complexity, reduced-power camera system for intrusion classification in an outdoor setting”,
+VisionNet - ICACCI, Manipal, 2017 [BEST PAPER] <a href="http://sampy.in:8080/static/docs/PAPERS/Reduced_Complexity_Camera_System_ICACCI_MANIPAL_2017%28BEST_PAPER%29.pdf">[PDF]</a></p>
+  </li>
+  <li>
+    <p>Tarun Choubisa, Mohan Kashyap, RN Rithesh, Sampad B Mohanty, “Direction and gender classification using convolutional
+neural network for side-view images captured from a monitored trail”, IEEE ICIIP, Shimla 2017 [BEST PAPER] <a href="http://sampy.in:8080/static/docs/PAPERS/Gender_Classification_using_CNN_ICIIP_2017.pdf">[PDF]</a></p>
+  </li>
+  <li>
+    <p>Tarun Choubisa, Sampad B. Mohanty, Mohan Kashyap, Kodur Krishna Chaitanya, Sridhar A, P. Vijay Kumar, Fellow, IEEE,
+“LITE: Light-based Intrusion deTection systEm Using an Optical-Camera and a Single Board Computer”, LCN Demos Track,
+IEEE LCN, Singapore, 2017 <a href="http://sampy.in:8080/static/docs/PAPERS/LITE_Light-based%20_Intrusion%20_deTection%20systEm_Demo_Proposal_SenseApp_2017_Singapore.pdf">[PDF]</a></p>
+  </li>
+  <li>
+    <p>Tarun Choubisa, Mohan Kashyap, Sampad B. Mohanty, P. Vijay Kumar, Fellow, IEEE, “Comparing chirplet-based
+classification with alternate feature-extraction approaches for outdoor intrusion detection using a PIR sensor platform”,
+ICACCI, 2017 <a href="http://sampy.in:8080/static/docs/PAPERS/Comparions_Chirplet_vs_Other_Features_for_Intrusion_Detection_ICACCI_MANIPAL_2017.pdf">[PDF]</a></p>
+  </li>
+  <li>
+    <p>Tarun Choubisa, Sampad B Mohanty, Mohan Kashyap, Shivangi Gambhir, Kodur Krishna Chaitanya, A Sridhar, P Vijay
+Kumar, “An Optical-Camera Complement to a PIR Sensor Array for Intrusion Detection and Classification in an Outdoor
+Environment”, SenseApp-IEEE LCN, Singapore, 2017 <a href="http://sampy.in:8080/static/docs/PAPERS/Optical_Camera_Intrusion_Classfication_SenseApp_LCN_Singapore_2017.pdf">[PDF]</a></p>
+  </li>
+</ul>
+
+<h5 id="keywords-opencv-optical-flow-image-processing-on-multicore-contiki-os-correlation-background-subtractionsupport-vector-machine">Keywords: OpenCV, Optical Flow, Image Processing on Multicore, Contiki-OS, Correlation, Background Subtraction,Support Vector Machine</h5>
+
+<hr />
+<h3 id="project-assistant-electronics-and-communication-engineering-nit-rourkela">Project Assistant, Electronics and Communication Engineering, NIT Rourkela</h3>
+<h5 id="june-2016--july-2016">June 2016 -July 2016</h5>
+<h5 id="embedded-system-for-mine-safety-and-heavy-earth-moving-vehicle-tracking">Embedded System for Mine Safety and Heavy Earth Moving Vehicle Tracking</h5>
+<h5 id="supervisor-prof-debiprasad-p-acharya">Supervisor: <a href="http://www.nitrkl.ac.in/EC/~dpacharya/">Prof. Debiprasad P Acharya</a></h5>
+
+<p>In this period I worked on deploying the system I developed in my M.Tech project “Vehicle Monitoring in Open Cast Mines under Unreliable Cellular Network using ZigBee”. I also helped in the technology and skill transfer to the staffs of the funding company - Jindal Steel and Power - Tensa.</p>
+
+<p>More details in my work as Research Assistant in ECE Dept. NIT Rourkela in the year 2015-2016</p>
+
+<hr />
+<h3 id="research-assistant-electronics-and-communication-engineering-nit-rourkela">Research Assistant, Electronics and Communication Engineering, NIT Rourkela</h3>
+<h5 id="june-2016--july-2016-1">June 2016 -July 2016</h5>
+<h5 id="embedded-system-for-mine-safety-and-heavy-earth-moving-vehicle-tracking-1">Embedded System for Mine Safety and Heavy Earth Moving Vehicle Tracking</h5>
+<h5 id="supervisor-prof-debiprasad-p-acharya-1">Supervisor: <a href="http://www.nitrkl.ac.in/EC/~dpacharya/">Prof. Debiprasad P Acharya</a></h5>
+
+<p>Funded by Jindal Steel and Power Limited, the project aimed to tackle the problem of near real-time vehicle tracking in
+an open cast mine which suffers from a poor GSM network. I developed both the hardware and software for the system
+to solve this problem using a ZigBee network that collects the position and speed data from vehicles when they are not
+under GSM coverage and then relays it to a ZigBee node which has access to GSM network and hence uploads the
+acquired data to the Vehicle Monitoring Server over GPRS. The codes were developed using Python for a Raspberry Pi
+computer which acts as the gateway node, in C++ for the vehicle tracking equipment (mounted on each dumper/vehicle
+to be tracked) and again Python, HTML and JavaScript for the Vehicle Monitoring Server. The system was deployed at
+Jindal Iron Mines at Tensa, Sundergarh Odisha India and has been working since March 2016. The project details can
+be found in my M.Tech thesis which can be accessed at <a href="http://nitrjindal.in/static/Thesis.pdf">[Thesis.pdf]</a>
+Project Website (Authentication Required – Guest credentials for demo available on request) : <a href="http://nitrjindal.in">nitrjindal.in</a></p>
+
+<h5 id="papers-1">Papers:</h5>
+
+<ul>
+  <li>Himansu Sekhar Pradhan, Sampad Bhusan Mohanty, Santosh Madhukar Yerme, Paresh Govind Kale, Debiprasad Priyabrata
+Acharya, “Embedded System for mine process monitoring in a network constrained environment using wireless
+communication bridge”, ICMOCE, IIT Bhubaneswar, 2015 <a href="http://dspace.nitrkl.ac.in/dspace/bitstream/2080/2521/1/2015_ICMOCE_HSPardhan_PID3956741.pdf">[PDF]</a></li>
+</ul>
+
+<hr />
+<h3 id="founding-member-and-lead-embedded-and-network-developer-at-pheonixrobotix">Founding Member and Lead Embedded and Network Developer at <a href="https://phoenixrobotix.com/">PheonixRobotix</a></h3>
+<h5 id="aurassure-and-trade"><a href="https://aurassure.com">Aurassure</a> and <a href="https://phoenixrobotix.com/trade-gprs">TraDe</a></h5>
+
+<h6 id="aurassure">AURASSURE</h6>
+<p>One of the first team member of the startup Pheonix Robotix (spin off from the Balloon Satellite Lab at NIT
+Rourkela and the Air Quality Sensor Network team) where I worked as the lead embedded developer after
+class hours. I managed a team of 3 developers to develop the software stack for an Air Quality Monitoring
+Kit called AURASURRE (https://aurassure.com). I also led the networking of the devices with the State
+Pollution Control Boards (SPCB, Govt. of Odisha, India) pollution monitoring servers during which I visited and
+interacted with the SPCB technical staff to develop an API for the same. My work also included writing driver
+codes on Arduino for various air quality sensors including sensors from the well-known company Alphasense.</p>
+
+<h6 id="online-pollution-monitoring-of-soft-iron-manufacturing-plants-later-called-product-trade">ONLINE POLLUTION MONITORING OF SOFT IRON MANUFACTURING PLANTS (LATER CALLED PRODUCT “TRADE”)</h6>
+<p>I was responsible for developing embedded code on Arduino platform for interfacing a hardware device we
+developed at PhoenixRobotix which collected pollution data like SO 2 and particulate matter from the
+Electrostatic Precipitator and uploaded it to the Orissa State Pollution Control Boards Server over GPRS for
+continuous monitoring of the pollution. All transmissions were encrypted using AES encryption and a custom
+application packet was used to be sent over TCP. HTTP was not used deliberately to decrease data usage due
+to header overheads. The device used industry standard 4ma-20ma current loop for collection of data from
+the sensors. Finally a generic device named TRADE was developed which could be easily deployed in any
+similar factory and start transmitting data without much manual configuration.</p>
+
+
+							
+							
+
+						</div>
+					</section>
+
+					<!-- Four -->
+					<section id="four" class="wrapper style2-alt">
+						<div class="inner">
+
+							
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/update/work/';
+      this.page.identifier = 'http://localhost:4000/update/work/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://sampying.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+						
+
+						</div>
+						
+	
+						<div class="inner">
+							<a href="/" class="link6" style="border-bottom:none;"><i style="color:brown"><span class="copyleft">©</span> 2018 Sampad Mohanty</i></a>
+						</div>            		
+
+							
+
+					
+					</section>
+
+			</div>
+
+		 <!--Footer--> 
+			<!--<footer id="footer" class="wrapper style1">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Sampy 2018. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>-->
+
+		<!-- Scripts -->
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.scrollex.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.scrolly.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/skel.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+<link rel="stylesheet" href="/assets/main.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<script type="text/javascript">
+
+
+window.tocs=[]
+
+$(".blogcontent > .inner > h3").each(function(index){
+	window.tocs.push({"contentTitle":$(this).html(),"idlink":"toc"+index});
+	$(this).attr("id","toc"+index) //add id to the TOC heading
+})
+
+var tocApp = new Vue({
+  el: '#sidebar',
+  data: {
+    tocs: [
+      { contentTitle: 'Learn JavaScript', idlink:"#" },
+      { contentTitle: 'Learn Vue', idlink:"#" },
+      { contentTitle: 'Build something awesome', idlink:"#" }
+    ]
+  }
+})
+
+tocApp.tocs=window.tocs;
+
+</script>
+
+
+
+
+
+  
+    
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/update/work/';
+      this.page.identifier = 'http://localhost:4000/update/work/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://sampying.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+

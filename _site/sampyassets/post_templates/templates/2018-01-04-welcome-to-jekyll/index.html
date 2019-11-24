@@ -1,0 +1,383 @@
+<!-- _includes/base.html -->
+
+
+
+
+<style type="text/css">
+
+        /* LINK HOVER STYLES 
+
+        SOURCE : https://codepen.io/jwv/pen/adONxo?q=hover+link&limit=all&type=type-pens
+
+        */
+
+
+       a{
+          /*color: #6E5C34;*/
+          /*text-decoration: none;*/
+          /*display:block;*/
+          /*margin: 20px auto;*/
+          position: relative;
+          overflow: hidden;
+          /*padding:0 6px;*/
+          /*text-transform: uppercase;*/
+          transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
+          
+          /*font-size: 0.875rem;
+          letter-spacing: .15rem;
+          line-height: 1.8;*/
+        } 
+
+        a:hover{
+          /*color:#CF2034;*/
+        }
+
+                
+        .link1:after {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: translate3d(-101%,0,0);
+          transition: transform .2s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link1:hover:after {
+          transform: translate3d(0,0,0);
+          
+        }
+
+        .link2:after {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: scale(0);
+
+        }
+
+        .link2:hover:after {
+            transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+          transform: scale(1);
+        }
+
+        .link3:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          border-bottom: 1px solid #222;
+          transform: translate3d(-101%,0,0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link3:hover:after {
+          transform: translate3d(0,0,0);
+        }
+
+        .link4:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: #CF2034;
+          content: "";
+          transform: scale(0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link4:hover:after {
+          transform: scale(1);
+        }
+
+        .link5{
+          position: relative;
+          z-index:1;
+          padding:2px 6px;
+        }
+
+        .link5:after {
+          position: absolute;
+          top:0; bottom: 0;
+          right: 0;left: 0;
+          display: block;
+          background-color: #CF2034;
+          content: "";
+          transform: translate3d(0,100%,0);
+          z-index:-1;
+        }
+
+        .link5:hover:after {
+          transform: translate3d(0,0,0);
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link5:hover{
+          color: #fff;
+        }
+
+
+        .link6{
+          position: relative;
+          z-index:1;
+          padding:2px 6px;
+        }
+
+        .link6:after {
+          position: absolute;
+          top:0; bottom: 0;
+          right: 0;left: 0;
+          display: block;
+          background-color: #170202;
+          content: "";
+          transform: translate3d(-101%,0,0);
+          z-index:-1;
+          transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+        }
+
+        .link6:hover {
+          color: #fff;
+        }
+
+        .link6:hover:after {
+          transform: translate3d(0,0,0);
+        }
+
+  </style>
+
+
+
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>SampySays</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://localhost:4000/sampyassets/posting/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<style>
+			hr {
+			
+    border: 0;
+    height: 2px;
+    background: #333;
+    background: -webkit-gradient(linear,left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li v-for="toc in tocs">
+								<a v-bind:href="'#'+toc.idlink">
+									
+									{{ toc.contentTitle }}
+									
+								</a>
+							</li>
+							<!--<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>-->
+						</ul>
+					</nav>
+
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style2-alt fullscreen fade-up">
+						<div class="inner">
+							<h1><i>Welcome to Jekyll!</i></h1>
+							<h3>
+								<time datetime="2018-01-04T09:06:56-08:00" itemprop="datePublished">
+						        
+						        <i><u>Jan 4, 2018</u></i>
+						      </time></br>
+						      
+        					</h3>
+        					
+							<i><p></p></i>
+							<!--<ul class="actions">
+								<li><a href="#one" class="button scrolly">Jump in</a></li>
+							</ul>-->
+						</div>
+					</section>
+
+				
+				<!-- Three -->
+					<section id="three" class="blogcontent wrapper style2-alt fade-up">
+						<div class="inner">
+
+							<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+
+							
+							
+
+						</div>
+					</section>
+
+					<!-- Four -->
+					<section id="four" class="wrapper style2-alt">
+						<div class="inner">
+
+							
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/sampyassets/post_templates/templates/2018-01-04-welcome-to-jekyll/';
+      this.page.identifier = 'http://localhost:4000/sampyassets/post_templates/templates/2018-01-04-welcome-to-jekyll/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://sampying.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+						
+
+						</div>
+						
+	
+						<div class="inner">
+							<a href="/" class="link6" style="border-bottom:none;"><i style="color:brown"><span class="copyleft">©</span> 2018 Sampad Mohanty</i></a>
+						</div>            		
+
+							
+
+					
+					</section>
+
+			</div>
+
+		 <!--Footer--> 
+			<!--<footer id="footer" class="wrapper style1">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Sampy 2018. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>-->
+
+		<!-- Scripts -->
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.scrollex.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/jquery.scrolly.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/skel.min.js"></script>
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="http://localhost:4000/sampyassets/posting/assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+<link rel="stylesheet" href="/assets/main.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<script type="text/javascript">
+
+
+window.tocs=[]
+
+$(".blogcontent > .inner > h3").each(function(index){
+	window.tocs.push({"contentTitle":$(this).html(),"idlink":"toc"+index});
+	$(this).attr("id","toc"+index) //add id to the TOC heading
+})
+
+var tocApp = new Vue({
+  el: '#sidebar',
+  data: {
+    tocs: [
+      { contentTitle: 'Learn JavaScript', idlink:"#" },
+      { contentTitle: 'Learn Vue', idlink:"#" },
+      { contentTitle: 'Build something awesome', idlink:"#" }
+    ]
+  }
+})
+
+tocApp.tocs=window.tocs;
+
+</script>
+
+
+
+
+
+  
+    
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/sampyassets/post_templates/templates/2018-01-04-welcome-to-jekyll/';
+      this.page.identifier = 'http://localhost:4000/sampyassets/post_templates/templates/2018-01-04-welcome-to-jekyll/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://sampying.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+

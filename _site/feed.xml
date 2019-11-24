@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-23T21:32:31-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>I am Sampad and this is where I try to share my activities,  discoveries, tutorials and interests. An electrical engineer  by education, my interests vary widely,  mostly in science and technology, DIY, music, magic,  psychology and beyond.</subtitle><entry><title type="html">Music</title><link href="http://localhost:4000/music/music/" rel="alternate" type="text/html" title="Music" /><published>2018-12-31T00:00:00-08:00</published><updated>2018-12-31T00:00:00-08:00</updated><id>http://localhost:4000/music/music</id><content type="html" xml:base="http://localhost:4000/music/music/">&lt;h3 id=&quot;covers&quot;&gt;COVERS&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/552145575&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/527601342&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/490151049&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/490400034&amp;amp;color=%23ff5500&amp;amp;auto_play=true&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;</content><author><name>sampad</name></author><summary type="html">COVERS</summary></entry><entry><title type="html">Projects</title><link href="http://localhost:4000/update/projects/" rel="alternate" type="text/html" title="Projects" /><published>2018-12-30T00:00:00-08:00</published><updated>2018-12-30T00:00:00-08:00</updated><id>http://localhost:4000/update/projects</id><content type="html" xml:base="http://localhost:4000/update/projects/">&lt;h3 id=&quot;1-led-art-dance-project&quot;&gt;1. LED Art Dance Project&lt;/h3&gt;
+&lt;h5 id=&quot;feb-2014--embedded-systems--synergy-dance-club-nit-rourkela&quot;&gt;Feb 2014 | Embedded Systems | Synergy Dance Club, NIT Rourkela&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/1924404_10201340623933025_1126068851_n.jpg?_nc_cat=109&amp;amp;_nc_ht=scontent-bom1-1.xx&amp;amp;oh=52a4a0d2663069eb42916f1c29a7067c&amp;amp;oe=5C8E2DA9&quot; alt=&quot;NITRUtsav 2014 Performance&quot; width=&quot;100%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;70%&quot; src=&quot;https://www.youtube.com/embed/pvK5bv_WdX4?start=417&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-dual-tone-multi-frequency-remote-firework-detonator&quot;&gt;2. Dual Tone Multi Frequency Remote Firework Detonator&lt;/h3&gt;
+&lt;h5 id=&quot;december-2012--embedded-systems--satellite-lab-dept-of-ece-nit-rourkela&quot;&gt;December 2012 | Embedded Systems | Satellite Lab, Dept. of ECE, NIT Rourkela&lt;/h5&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;70%&quot; src=&quot;https://www.youtube.com/embed/Orb8hW9yT10?start=243&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3-nitr-balloonsat---onboard-computing-and-telemetry-team-lead&quot;&gt;3. NITR BalloonSat - Onboard Computing and Telemetry Team Lead&lt;/h3&gt;
+&lt;h5 id=&quot;may-2014---july-2015--wireless-sensor-networks--embedded-systems--satellite-lab-dept-of-ece-nit-rourkela&quot;&gt;May 2014 - July 2015 | Wireless Sensor Networks / Embedded Systems | Satellite Lab, Dept. of ECE, NIT Rourkela&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/picturesGallery/projects/corrupt-rcv.jpg&quot; alt=&quot;BalloonSat2&quot; width=&quot;100%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/picturesGallery/projects/May_03_2016_01-15-21.jpg&quot; alt=&quot;BalloonSat2&quot; width=&quot;100%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/picturesGallery/projects/GOPR0353.JPG&quot; alt=&quot;BalloonSat2&quot; width=&quot;100%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-grid-solver-line-following-robot&quot;&gt;4. Grid Solver Line following robot&lt;/h3&gt;
+&lt;h5 id=&quot;oct-2012--robotics--embedded-systems--innovision-2012-nit-rourkela&quot;&gt;Oct 2012 | Robotics / Embedded Systems | Innovision 2012, NIT Rourkela&lt;/h5&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;70%&quot; src=&quot;https://www.youtube.com/embed/VpN1QCFWSYk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;5-aurrasure-air-pollution-monitor&quot;&gt;5. Aurrasure Air Pollution Monitor&lt;/h3&gt;
+&lt;h5 id=&quot;dec-2015--robotics--embedded-systems--2015-pheonixrobotix&quot;&gt;Dec 2015 | Robotics / Embedded Systems | 2015, PheonixRobotix&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/picturesGallery/projects/IMG-20190117-WA0013.jpg&quot; alt=&quot;BalloonSat2&quot; width=&quot;100%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;</content><author><name>sampad</name></author><summary type="html">1. LED Art Dance Project Feb 2014 | Embedded Systems | Synergy Dance Club, NIT Rourkela</summary></entry><entry><title type="html">Work</title><link href="http://localhost:4000/update/work/" rel="alternate" type="text/html" title="Work" /><published>2018-12-28T00:00:00-08:00</published><updated>2018-12-28T00:00:00-08:00</updated><id>http://localhost:4000/update/work</id><content type="html" xml:base="http://localhost:4000/update/work/">&lt;h3 id=&quot;project-associate-robert-bosch-centre-for-cyber-physical-systems-iisc-bangalore&quot;&gt;Project Associate, Robert Bosch Centre for Cyber Physical Systems, IISc Bangalore&lt;/h3&gt;
+&lt;h5 id=&quot;oct-2017---present&quot;&gt;Oct 2017 - Present&lt;/h5&gt;
+&lt;h5 id=&quot;industrial-internet-of-things&quot;&gt;Industrial Internet of Things&lt;/h5&gt;
+&lt;h5 id=&quot;supervisor-prof-rajesh-sundaresan&quot;&gt;Supervisor: &lt;a href=&quot;http://www.ece.iisc.ernet.in/~rajeshs/&quot; target=&quot;_blank&quot;&gt;Prof. Rajesh Sundaresan&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h4 id=&quot;links--&quot;&gt;Links -&amp;gt;&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/NeveIsa/RBCCPS/tree/master/docs/iiot-gateway&quot; target=&quot;_blank&quot;&gt;Industrial IoT Stack Implementation Details (Github)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/NeveIsa/RBCCPS/blob/master/docs/network/Network%20Architecture.pdf&quot; target=&quot;_blank&quot;&gt;Network Layout (Github)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;project-associate-electrical-and-communication-engineering-iisc-bangalore&quot;&gt;Project Associate, Electrical and Communication Engineering, IISc Bangalore&lt;/h3&gt;
+&lt;h5 id=&quot;august-2016--september-2017&quot;&gt;August 2016 – September 2017&lt;/h5&gt;
+&lt;h5 id=&quot;wsn-in-detection-and-early-warning-system-for-wildlife-monitoring-and-protection&quot;&gt;WSN in detection and early warning system for wildlife monitoring and protection&lt;/h5&gt;
+&lt;h5 id=&quot;supervisor-prof-p-vijay-kumar&quot;&gt;Supervisor: &lt;a href=&quot;http://www.ece.iisc.ernet.in/~vijay/&quot; target=&quot;_blank&quot;&gt;Prof. P Vijay Kumar&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;Worked on a low power sensor platform which uses Passive Infrared sensor array for intrusion detection and
+classification between human and animals like big cats. The sensor platform had to be low power and would be
+running from a solar energy harvesting system. Correlation between a pair of PIR sensors and the signal strength from
+4 other PIR sensors were used as a feature vector and fed to an SVM running on a low power mote (Wismote and
+Zolertia Re-mote) to classify the intrusion as human or animal. Also developed light weight image processing
+techniques for Raspberry Pi Zero to complement the above platform at times of day when temperature gets close to
+body temperature of humans or animals, because PIR performs poorly in such environments. The work involved
+extracting features from video feed which are then fed to an SVM classifier to classify between the Human, Animal
+and vegetation. We achieved a frame rate of 8 fps on Raspberry Pi-Zero, 25 fps on an Orange Pi-Zero using an
+optimized version of the algorithm which provided accuracies of about 93%. An Odroid C2 was also deployed whose
+frame rate was 25fps with a little heavier version of the algorithm for better accuracies reaching 97%. The work also
+involved comparison of various permutations of different image processing/feature extraction techniques like optical
+flow and machine learning models like decision trees, SVM and K- Nearest Neighbour based on their computational
+and energy efficiency while running on different Single Board Computers (SBCs) available like RPi2, RPi3, Odroid C2
+and Orange Pi.&lt;/p&gt;
+
+&lt;p&gt;My role in the project spanned many areas including hardware, embedded systems, WSN, computer networking,
+image processing, signal processing and machine learning. On hardware end, I designing the signal conditioning
+multistage filter and amplifier for the PIR sensors and selecting the right ADCs. On the embedded aspect, my
+contribution was towards ADC interfacing of these sensors via I2C to a mote running Contiki-OS (Re-Mote). I also
+contributed in part to develop routines for extracting the energy and correlation features from the PIR signal sampled
+via the ADC in the ContikiOS. On the WSN side, I helped implement UDP client codes on ContikiOS for sending
+decisions from the Re-Mote to application server. I was completely responsible for developing the complementary
+camera platform. A few of my tasks were to implement optical flow using OpenCV, build various features from the
+optical flow vectors and implementing an SVM classifier which uses these features. Also included were tasks for
+optimizing the above systems for running on SBCs to obtain higher frame rates which lead to understanding of
+systems programming, IO bound vs CPU bound tasks and later coming up with a pipelined architecture for the optical
+camera using multithreading to address camera IO bottlenecks and comparison of effects of using various image
+filters on computation and accuracy of classification on these SBCs.&lt;/p&gt;
+
+&lt;h5 id=&quot;papers&quot;&gt;Papers:&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarun Choubisa, Sampad B. Mohanty, Kodur Krishna Chaitanya, Mohan Kashyap, Sridhar A, Akshay Singh P. Vijay Kumar,
+Fellow, IEEE, “A reduced-complexity, reduced-power camera system for intrusion classification in an outdoor setting”,
+VisionNet - ICACCI, Manipal, 2017 [BEST PAPER] &lt;a href=&quot;http://sampy.in:8080/static/docs/PAPERS/Reduced_Complexity_Camera_System_ICACCI_MANIPAL_2017%28BEST_PAPER%29.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarun Choubisa, Mohan Kashyap, RN Rithesh, Sampad B Mohanty, “Direction and gender classification using convolutional
+neural network for side-view images captured from a monitored trail”, IEEE ICIIP, Shimla 2017 [BEST PAPER] &lt;a href=&quot;http://sampy.in:8080/static/docs/PAPERS/Gender_Classification_using_CNN_ICIIP_2017.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarun Choubisa, Sampad B. Mohanty, Mohan Kashyap, Kodur Krishna Chaitanya, Sridhar A, P. Vijay Kumar, Fellow, IEEE,
+“LITE: Light-based Intrusion deTection systEm Using an Optical-Camera and a Single Board Computer”, LCN Demos Track,
+IEEE LCN, Singapore, 2017 &lt;a href=&quot;http://sampy.in:8080/static/docs/PAPERS/LITE_Light-based%20_Intrusion%20_deTection%20systEm_Demo_Proposal_SenseApp_2017_Singapore.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarun Choubisa, Mohan Kashyap, Sampad B. Mohanty, P. Vijay Kumar, Fellow, IEEE, “Comparing chirplet-based
+classification with alternate feature-extraction approaches for outdoor intrusion detection using a PIR sensor platform”,
+ICACCI, 2017 &lt;a href=&quot;http://sampy.in:8080/static/docs/PAPERS/Comparions_Chirplet_vs_Other_Features_for_Intrusion_Detection_ICACCI_MANIPAL_2017.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarun Choubisa, Sampad B Mohanty, Mohan Kashyap, Shivangi Gambhir, Kodur Krishna Chaitanya, A Sridhar, P Vijay
+Kumar, “An Optical-Camera Complement to a PIR Sensor Array for Intrusion Detection and Classification in an Outdoor
+Environment”, SenseApp-IEEE LCN, Singapore, 2017 &lt;a href=&quot;http://sampy.in:8080/static/docs/PAPERS/Optical_Camera_Intrusion_Classfication_SenseApp_LCN_Singapore_2017.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;keywords-opencv-optical-flow-image-processing-on-multicore-contiki-os-correlation-background-subtractionsupport-vector-machine&quot;&gt;Keywords: OpenCV, Optical Flow, Image Processing on Multicore, Contiki-OS, Correlation, Background Subtraction,Support Vector Machine&lt;/h5&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;project-assistant-electronics-and-communication-engineering-nit-rourkela&quot;&gt;Project Assistant, Electronics and Communication Engineering, NIT Rourkela&lt;/h3&gt;
+&lt;h5 id=&quot;june-2016--july-2016&quot;&gt;June 2016 -July 2016&lt;/h5&gt;
+&lt;h5 id=&quot;embedded-system-for-mine-safety-and-heavy-earth-moving-vehicle-tracking&quot;&gt;Embedded System for Mine Safety and Heavy Earth Moving Vehicle Tracking&lt;/h5&gt;
+&lt;h5 id=&quot;supervisor-prof-debiprasad-p-acharya&quot;&gt;Supervisor: &lt;a href=&quot;http://www.nitrkl.ac.in/EC/~dpacharya/&quot;&gt;Prof. Debiprasad P Acharya&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;In this period I worked on deploying the system I developed in my M.Tech project “Vehicle Monitoring in Open Cast Mines under Unreliable Cellular Network using ZigBee”. I also helped in the technology and skill transfer to the staffs of the funding company - Jindal Steel and Power - Tensa.&lt;/p&gt;
+
+&lt;p&gt;More details in my work as Research Assistant in ECE Dept. NIT Rourkela in the year 2015-2016&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;research-assistant-electronics-and-communication-engineering-nit-rourkela&quot;&gt;Research Assistant, Electronics and Communication Engineering, NIT Rourkela&lt;/h3&gt;
+&lt;h5 id=&quot;june-2016--july-2016-1&quot;&gt;June 2016 -July 2016&lt;/h5&gt;
+&lt;h5 id=&quot;embedded-system-for-mine-safety-and-heavy-earth-moving-vehicle-tracking-1&quot;&gt;Embedded System for Mine Safety and Heavy Earth Moving Vehicle Tracking&lt;/h5&gt;
+&lt;h5 id=&quot;supervisor-prof-debiprasad-p-acharya-1&quot;&gt;Supervisor: &lt;a href=&quot;http://www.nitrkl.ac.in/EC/~dpacharya/&quot;&gt;Prof. Debiprasad P Acharya&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Funded by Jindal Steel and Power Limited, the project aimed to tackle the problem of near real-time vehicle tracking in
+an open cast mine which suffers from a poor GSM network. I developed both the hardware and software for the system
+to solve this problem using a ZigBee network that collects the position and speed data from vehicles when they are not
+under GSM coverage and then relays it to a ZigBee node which has access to GSM network and hence uploads the
+acquired data to the Vehicle Monitoring Server over GPRS. The codes were developed using Python for a Raspberry Pi
+computer which acts as the gateway node, in C++ for the vehicle tracking equipment (mounted on each dumper/vehicle
+to be tracked) and again Python, HTML and JavaScript for the Vehicle Monitoring Server. The system was deployed at
+Jindal Iron Mines at Tensa, Sundergarh Odisha India and has been working since March 2016. The project details can
+be found in my M.Tech thesis which can be accessed at &lt;a href=&quot;http://nitrjindal.in/static/Thesis.pdf&quot;&gt;[Thesis.pdf]&lt;/a&gt;
+Project Website (Authentication Required – Guest credentials for demo available on request) : &lt;a href=&quot;http://nitrjindal.in&quot;&gt;nitrjindal.in&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;papers-1&quot;&gt;Papers:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Himansu Sekhar Pradhan, Sampad Bhusan Mohanty, Santosh Madhukar Yerme, Paresh Govind Kale, Debiprasad Priyabrata
+Acharya, “Embedded System for mine process monitoring in a network constrained environment using wireless
+communication bridge”, ICMOCE, IIT Bhubaneswar, 2015 &lt;a href=&quot;http://dspace.nitrkl.ac.in/dspace/bitstream/2080/2521/1/2015_ICMOCE_HSPardhan_PID3956741.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;founding-member-and-lead-embedded-and-network-developer-at-pheonixrobotix&quot;&gt;Founding Member and Lead Embedded and Network Developer at &lt;a href=&quot;https://phoenixrobotix.com/&quot;&gt;PheonixRobotix&lt;/a&gt;&lt;/h3&gt;
+&lt;h5 id=&quot;aurassure-and-trade&quot;&gt;&lt;a href=&quot;https://aurassure.com&quot;&gt;Aurassure&lt;/a&gt; and &lt;a href=&quot;https://phoenixrobotix.com/trade-gprs&quot;&gt;TraDe&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h6 id=&quot;aurassure&quot;&gt;AURASSURE&lt;/h6&gt;
+&lt;p&gt;One of the first team member of the startup Pheonix Robotix (spin off from the Balloon Satellite Lab at NIT
+Rourkela and the Air Quality Sensor Network team) where I worked as the lead embedded developer after
+class hours. I managed a team of 3 developers to develop the software stack for an Air Quality Monitoring
+Kit called AURASURRE (https://aurassure.com). I also led the networking of the devices with the State
+Pollution Control Boards (SPCB, Govt. of Odisha, India) pollution monitoring servers during which I visited and
+interacted with the SPCB technical staff to develop an API for the same. My work also included writing driver
+codes on Arduino for various air quality sensors including sensors from the well-known company Alphasense.&lt;/p&gt;
+
+&lt;h6 id=&quot;online-pollution-monitoring-of-soft-iron-manufacturing-plants-later-called-product-trade&quot;&gt;ONLINE POLLUTION MONITORING OF SOFT IRON MANUFACTURING PLANTS (LATER CALLED PRODUCT “TRADE”)&lt;/h6&gt;
+&lt;p&gt;I was responsible for developing embedded code on Arduino platform for interfacing a hardware device we
+developed at PhoenixRobotix which collected pollution data like SO 2 and particulate matter from the
+Electrostatic Precipitator and uploaded it to the Orissa State Pollution Control Boards Server over GPRS for
+continuous monitoring of the pollution. All transmissions were encrypted using AES encryption and a custom
+application packet was used to be sent over TCP. HTTP was not used deliberately to decrease data usage due
+to header overheads. The device used industry standard 4ma-20ma current loop for collection of data from
+the sensors. Finally a generic device named TRADE was developed which could be easily deployed in any
+similar factory and start transmitting data without much manual configuration.&lt;/p&gt;</content><author><name>sampad</name></author><summary type="html">Project Associate, Robert Bosch Centre for Cyber Physical Systems, IISc Bangalore Oct 2017 - Present Industrial Internet of Things Supervisor: Prof. Rajesh Sundaresan</summary></entry><entry><title type="html">Singapore</title><link href="http://localhost:4000/gallery/Singapore/" rel="alternate" type="text/html" title="Singapore" /><published>2018-01-04T00:00:00-08:00</published><updated>2018-01-04T00:00:00-08:00</updated><id>http://localhost:4000/gallery/Singapore</id><content type="html" xml:base="http://localhost:4000/gallery/Singapore/">&lt;p&gt;&lt;img src=&quot;IMG_20171007_202119.jpg&quot; alt=&quot;&quot; title=&quot;hello...world&quot; /&gt;&lt;/p&gt;</content><author><name>sampad</name></author><summary type="html"></summary></entry></feed>
