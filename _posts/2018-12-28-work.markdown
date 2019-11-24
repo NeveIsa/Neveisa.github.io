@@ -115,7 +115,7 @@ communication bridge”, ICMOCE, IIT Bhubaneswar, 2015 [[PDF]](http://dspace.nit
 
 
 ---
-### Founding Member and Lead Embedded and Network Developer at *Pheonix Robotix*
+### Founding Member and Lead Embedded and Network Developer at Pheonix Robotix
 
 ###### [PheonixRobotix](https://phoenixrobotix.com/)
 ###### AURASSURE
