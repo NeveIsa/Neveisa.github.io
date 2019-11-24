@@ -132,7 +132,7 @@ I was responsible for developing embedded code on Arduino platform for interfaci
 developed at PhoenixRobotix which collected pollution data like SO 2 and particulate matter from the
 Electrostatic Precipitator and uploaded it to the Orissa State Pollution Control Boards Server over GPRS for
 continuous monitoring of the pollution. All transmissions were encrypted using AES encryption and a custom
-application packet was used to be sent over TCP. HTTP was not used deliberately to decrease data usage due
+application packet was used to be sent over raw TCP. HTTP was not used deliberately to decrease data usage due
 to header overheads. The device used industry standard 4ma-20ma current loop for collection of data from
 the sensors. Finally a generic device named TRADE was developed which could be easily deployed in any
 similar factory and start transmitting data without much manual configuration.
