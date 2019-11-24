@@ -115,9 +115,9 @@ communication bridge”, ICMOCE, IIT Bhubaneswar, 2015 [[PDF]](http://dspace.nit
 
 
 ---
-### Founding Member and Lead Embedded and Network Developer at [PheonixRobotix](https://phoenixrobotix.com/)
+### Founding Member and Lead Embedded and Network Developer at *Pheonix Robotix*
 
-
+###### [PheonixRobotix](https://phoenixrobotix.com/)
 ###### AURASSURE
 One of the first team member of the startup Pheonix Robotix (spin off from the Balloon Satellite Lab at NIT
 Rourkela and the Air Quality Sensor Network team) where I worked as the lead embedded developer after
